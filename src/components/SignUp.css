@@ -1,0 +1,71 @@
+/* src/components/SignUp.css */
+
+body {
+    overflow-y: auto; /* Enable vertical scrolling for the entire page */
+  }
+  
+  .signup-container {
+    position: fixed;
+    top: 42%;
+    left: 0%;
+    transform: translate(5%, -32%);
+    background-color: #b9e456; /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center; /* Center align content */
+    width: 1125px; /* Set width to 400px or any desired width */
+    max-height: 80vh; /* Limit maximum height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  }
+  
+  .signup-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-scrollable {
+    max-height: 400px; /* Set the maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .signup-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .signup-label {
+    width: 50%; /* Adjust as needed */
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .signup-input {
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    width: 150px;
+    padding: 10px;
+    background-color: #012403;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #013b04;
+  }
+  
